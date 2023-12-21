@@ -1,7 +1,7 @@
 const script = document.createElement('SCRIPT')
 script.id='MudiDataLayer'
 script.innerHTML=`
-if( document.querySelenctor('.escritorio')){
+if( document.querySelector('.escritorio')){
     dataLayer.push({
         eventoMudi:'Visualización de Botones',
         mudiBtns: 1
