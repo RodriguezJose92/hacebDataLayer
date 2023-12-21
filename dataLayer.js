@@ -14,12 +14,19 @@ if( document.querySelenctor('.escritorio')){
 }`;
 
 if( document.querySelector('.escritorio')){
-    document.appendChild(script)
+    document.head.appendChild(script)
 }else if(document.getElementById('MudiDataLayer')){
     console.log('ya existe el script amigo')
 }else{
     console.log('el codigo se ejecuta pero no está ni el elemento HTML ni el CDN .. que en todo caso sería muy raro --- ')
 }
+
+
+
+
+    
+
+
 
 
 
