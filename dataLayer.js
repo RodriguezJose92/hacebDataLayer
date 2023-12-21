@@ -1,4 +1,4 @@
-if( document.querySelenctor('.escritorio')){
+if( document.querySelector('.escritorio')){
     dataLayer.push({
         eventoMudi:'Visualización de Botones',
         mudiBtns: 1
